@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Register",
+    "pages/admin/AdminIndex",
+    "pages/user/UserIndex",
+    "pages/admin/AdminSearch",
+    "pages/admin/AdminBookDetail",
+    "pages/admin/ChangeBookDetail",
+    "pages/user/UserBookDetail",
+    "pages/user/UserSearch",
+    "pages/user/UserUnSubscribeBookDetail",
+    "pages/admin/AdminLookUser"
+  ]
+}

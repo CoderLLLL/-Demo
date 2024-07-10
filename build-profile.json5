@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\86181\\.ohos\\config\\auto_debug_LbraryManagementSystem_com.example.lbrarymanagementsystem_420086000104069146.cer",
+          "storePassword": "0000001B9E2E549014328B074E1E4BA5FE00426B2F31B613CED96A2C66D36F649811A43553A8A070992CC7",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BDF8AB45DA1F18D2A5E7DA133587BB6B5FAAA1F0B52F03976EEB7B0CCFC1C3170A50C0E64B1119D",
+          "profile": "C:\\Users\\86181\\.ohos\\config\\auto_debug_LbraryManagementSystem_com.example.lbrarymanagementsystem_420086000104069146.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\86181\\.ohos\\config\\auto_debug_LbraryManagementSystem_com.example.lbrarymanagementsystem_420086000104069146.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
